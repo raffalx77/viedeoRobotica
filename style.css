@@ -1,1 +1,12 @@
+/*
+ * O código a seguir estiliza a página da web.
+ */
 
+body { /* Inicia o seletor 'body', que define o estilo para todo o corpo da página. */
+  color: white; /* Define a cor do texto para branco. */
+  background: black; /* Define a cor de fundo da página para preto. */
+  margin: opx; /* Define a margem de todos os lados (topo, direita, inferior e esquerda) como 0 pixels. Isso remove o espaçamento padrão do navegador. */
+  font-family: "chakra peach", sans-serif; /* Define a família da fonte a ser usada. A primeira opção é "chakra peach" e, se não estiver disponível, a fonte genérica 'sans-serif' será usada. */
+  margin-bottom: 100px; /* Define a margem inferior do corpo da página como 100 pixels. */
+}
+```
