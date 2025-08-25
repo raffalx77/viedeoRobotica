@@ -1,27 +1,32 @@
+/* Estilos gerais do corpo da página (body) */
 body {
-  color: white; /* deixa o texto branco */
-  background: black; /* deixa o fundo preto */
-  margin: 0px; /* cria um espaço invisivel para distanciar de outros elementos */
-  font-family: "Chakra Petch", sans-serif; /* usa a fonte "Chakra Petch" ou se não tiver, usa "sans-serif" */
-  margin-bottom: 100px; /* adiciona 100px de espaço invisivel na parte de baixo da pagina */
+  color: white; /* Define a cor do texto como branco */
+  background: black; /* Define o fundo da página como preto */
+  margin: 0px; /* Remove as margens padrão do corpo da página */
+  font-family: "Chakra Petch", sans-serif; /* Define a fonte principal */
+  margin-bottom: 100px; /* Adiciona um espaçamento na parte inferior da página */
 }
 
+/* Estilos para a seção de destaque da página (chamada) */
 .chamada {
-  background: rgb(184, 156, 213);
-  padding-bottom: 80px;
-  padding-top: 80px;
-  display: flex;
-  justify-content: center;
+  background: rgb(184, 156, 213); /* Define a cor de fundo com um tom de roxo */
+  padding-bottom: 80px; /* Adiciona 80px de espaçamento interno na parte de baixo */
+  padding-top: 80px; /* Adiciona 80px de espaçamento interno na parte de cima */
+  display: flex; /* Transforma o elemento em um container flexível */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
 }
 
+/* Estilos para o texto dentro da seção de destaque (chamada-texto) */
 .chamada-texto {
-  margin-right: 5%;
+  margin-right: 5%; /* Adiciona uma margem de 5% à direita do texto */
 }
 
+/* Estilos para o título principal (h1) */
 h1 {
-  font-size: 40px;
+  font-size: 40px; /* Define o tamanho da fonte do título */
 }
 
+/* Estilos para o parágrafo (p) */
 p {
-  font-size: 200px;
+  font-size: 200px; /* Define o tamanho da fonte do parágrafo */
 }
